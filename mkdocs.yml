@@ -20,15 +20,14 @@ google_analytics:
 nav:
   - Introduction:
     - Getting Started: index.md
-    - Contact: intro/contact.md
     - 关于本项目: intro/about.md
     - 如何参与: intro/htc.md
     - 格式手册: intro/format.md
     - F.A.Q.: intro/faq.md
     - 用 Docker 部署 OI Wiki: intro/docker-deploy.md
     - 致谢: intro/thanks.md
-  - 关于 Hulu:
-    -  关于 Hulu: intro/hulu.md
+  - Contact:
+    - Contact: intro/contact.md
 
 # Theme
 theme:
