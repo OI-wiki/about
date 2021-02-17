@@ -2,7 +2,7 @@
 site_name: OI Wiki
 site_description: OI Wiki 是一个编程竞赛知识整合站点，提供有趣又实用的编程竞赛知识以及其他有帮助的内容，帮助广大编程竞赛爱好者更快更深入地学习编程竞赛
 site_author: OI Wiki Team
-site_url: https://oi-wiki.org
+site_url: https://about.oi-wiki.org/
 strict: true
 
 # Repository
@@ -18,8 +18,9 @@ google_analytics:
 
 # Contents
 nav:
-  - 简介:
+  - Introduction:
     - Getting Started: index.md
+    - Contact: intro/contact.md
     - 关于本项目: intro/about.md
     - 如何参与: intro/htc.md
     - 格式手册: intro/format.md
