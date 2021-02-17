@@ -1,0 +1,111 @@
+# Project Information
+site_name: OI Wiki
+site_description: OI Wiki 是一个编程竞赛知识整合站点，提供有趣又实用的编程竞赛知识以及其他有帮助的内容，帮助广大编程竞赛爱好者更快更深入地学习编程竞赛
+site_author: OI Wiki Team
+site_url: https://oi-wiki.org
+strict: true
+
+# Repository
+repo_name: 'OI-wiki/OI-wiki'
+repo_url: 'https://github.com/OI-wiki/OI-wiki'
+edit_uri: 'https://oi-wiki.org/edit-landing/?ref='
+
+# Copyright
+copyright: 'Copyright &copy; 2016 - 2021 OI Wiki Team'
+google_analytics:
+  - 'UA-124485594-1'
+  - 'auto'
+
+# Contents
+nav:
+  - 简介:
+    - Getting Started: index.md
+    - 关于本项目: intro/about.md
+    - 如何参与: intro/htc.md
+    - 格式手册: intro/format.md
+    - F.A.Q.: intro/faq.md
+    - 用 Docker 部署 OI Wiki: intro/docker-deploy.md
+    - 致谢: intro/thanks.md
+  - 关于 Hulu:
+    -  关于 Hulu: intro/hulu.md
+
+# Theme
+theme:
+  name: null
+  custom_dir: 'mkdocs-material/material'
+  static_templates:
+    - 404.html
+  language: 'zh'
+  palette:
+    primary: 'white'
+    accent: 'red'
+  include_search_page: false
+  search_index_only: true
+  favicon: 'https://cdn.jsdelivr.net/npm/oicdn@0.0.1/favicon.ico'
+
+  logo:
+    icon: 'school'
+  feature:
+    tabs: true
+  font:
+    text: 'Fira Sans'
+    code: 'Fira Mono'
+
+# Customization
+extra:
+  search:
+    language: 'jp'
+  disqus: 'OI-Wiki'
+  copyright: '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a> 和 <a href="https://github.com/zTrix/sata-license">SATA</a>'
+  pagetime: 'on'
+  manifest: 'manifest.webmanifest'
+  githash: ''
+  # notice:
+  #   title: 'Hi'
+  #   message: '欢迎点击这里对 OI Wiki 提一点建议'
+  #   url: 'https://wj.qq.com/s2/4467592/b1e9'
+  #   position: 'topCenter'
+  #   progressBar: false
+  #   timeout: false
+
+extra_javascript:
+  - '_static/js/extra.js?v=16'
+  - 'https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML'
+
+
+extra_css:
+  - '_static/css/extra.css?v=13'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.progressbar
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: math
+          class: arithmatex
+          format: !!python/name:pymdownx.arithmatex.fence_mathjax_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
