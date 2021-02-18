@@ -20,12 +20,6 @@ google_analytics:
 nav:
   - Introduction:
     - Introduction: index.md
-    - 关于本项目: intro/about.md
-    - 如何参与: intro/htc.md
-    - 格式手册: intro/format.md
-    - F.A.Q.: intro/faq.md
-    - 用 Docker 部署 OI Wiki: intro/docker-deploy.md
-    - 致谢: intro/thanks.md
   - Projects:
     - GSoC 2021: projects/gsoc2021.md
     - ISCAS Summer 2021: projects/ospp2021.md
