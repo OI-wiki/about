@@ -21,7 +21,6 @@ nav:
   - Introduction:
     - Introduction: index.md
   - Projects:
-    - GSoC 2021: projects/gsoc2021.md
     - ISCAS Summer 2021: projects/ospp2021.md
   - Contact:
     - Contact: intro/contact.md
