@@ -1,0 +1,4 @@
+/*!
+ *  Font Awesome 4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */@font-face{font-family:FontAwesome;font-style:normal;font-weight:400;src:url(specimen/FontAwesome.woff2) format("woff2"),url(specimen/FontAwesome.woff) format("woff"),url(specimen/FontAwesome.ttf) format("truetype")}.pull-right{float:right}.pull-left{float:left}@-webkit-keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}@keyframes fa-spin{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(359deg);transform:rotate(359deg)}}
